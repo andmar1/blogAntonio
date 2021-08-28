@@ -7,58 +7,57 @@
     <!-- box icons  -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
     <link rel="stylesheet" href="css/styles.css">
-
-
-    <title>Personal Portfolio | Antonio</title>
+    <title>Blog | Antonio</title>
 </head>
 <body>
     <!-- header -->
     <header class="l-header">
         <nav class="nav bd-grid">
             <div class="nav__toggle" id="nav-toggle">
-                <i class="bx bx-menu"></i>
+                <i class="bx bx-menu" id="menuIcono"></i>
             </div>
 
             <div>
-                <a href="#" class="nav__logo">Harris</a>
+                <a href="#" class="nav__logo"><i class='bx bx-up-arrow-alt subir' id="up"></i></a>
+                <!-- <a href="#" class="nav__logo">Inicio</a> -->
             </div>
 
             <div class="nav__menu" id="nav-menu">
                 <div class="nav__close" id="nav-close">
-                    <i class="bx bx-x"></i>
+                    <i class="bx bx-x" id="x"></i>
                 </div>
                 <ul class="nav__list">
-                    <li class="nav__item"> <a href="#home" class="nav__link active">Home</a></li>
-                    <li class="nav__item"> <a href="#about" class="nav__link">About</a></li>
-                    <li class="nav__item"> <a href="#skills" class="nav__link">Skills</a></li>
-                    <li class="nav__item"> <a href="#services" class="nav__link">Services</a></li>
-                    <li class="nav__item"> <a href="#works" class="nav__link">Works</a></li>
-                    <li class="nav__item"> <a href="#contact" class="nav__link">Contactme</a></li>
+                    <li class="nav__item"> <a href="#home" class="nav__link active">Inicio</a></li>
+                    <li class="nav__item"> <a href="#about" class="nav__link">Acerca de</a></li>
+                    <li class="nav__item"> <a href="#skills" class="nav__link">Habilidades</a></li>
+                    <li class="nav__item"> <a href="#education" class="nav__link">Formación académica</a></li>
+                    <li class="nav__item"> <a href="#services" class="nav__link">Proyectos</a></li>
+                    <li class="nav__item"> <a href="#works" class="nav__link">Experiencia laboral</a></li>
+                    <li class="nav__item"> <a href="#footer" class="nav__link">Contáctame</a></li>
                 </ul>
             </div>
         </nav>
     </header>
-
     <main class="l-main">
         <!-- HOME -->
         <section class="home" id="home">
             <div class="home__container bd-grid">
                 <div class="home__data">
                     <div class="home__img">
-                        <img src="img/sin lienzo transparent.png" alt="">
+                        <img src="img/contactme.png" alt="">
                     </div>
 
-                    <h1 class="home__title">Haris William</h1>
-                    <span class="home__profession"> FrontEnd Developer</span>
+                    <h1 class="home__titleIndex">Antonio Andrade</h1>
+                    <span class="home__professionIndex"> Sistemas de Información Administrativa</span>
 
-                    <div class="home__social">
+                    <!-- <div class="home__social">
                         <a href="#" class="home__social-link"><i class="bx bxl-linkedin"></i></a>
                         <a href="#" class="home__social-link"><i class="bx bxl-github"></i></a>
                         <a href="#" class="home__social-link"><i class="bx bxl-dribbble"></i></a>
                         <a href="#" class="home__social-link"><i class="bx bxl-behance"></i></a>
-                    </div>
-
-                    <a download="" href="#" class="button home__button">Download Resume</a>
+                    </div> -->
+                    <a href="cv.html" class="button home__button">Curriculum</a>
+                    <!-- <a download="" href="#" class="button home__button">Download CV</a> -->
                 </div>
             </div>
         </section>
@@ -66,58 +65,74 @@
         <!-- ABOUT -->
 
         <section class="about section" id="about">
-            <span class="section-subtitle">My intro</span>
-            <h2 class="section-title">About My Intro</h2>
+            <span class="section-subtitle"><i class="bx bx-book" id="x"></i></span>
+            <h2 class="section-title">Acerca de mi</h2>
 
             <div class="about__container bd-grid"> 
                 <div class="about__data">
-                    <p class="about__description">Iam Antonio Andrade Mares Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia dicta culpa, eveniet laborum, id magnam doloremque non ea, dolore fuga corrupti.
+                    <p class="about__description">
+                        Licenciado en Sistemas de Información Administrativa por la Universidad de Guanajuato, apasionado por la tecnología, con experiencia en la instalación, configuración de software y asistencia a usuarios.                    
                     </p>
-                    <img src="img/about.png" class="about__img" alt="">
+                    <p class="about__description">
+                        Mantenimiento y detección de fallas a equipos de cómputo.                    
+                    </p>
+                    <p class="about__description">
+                        Conocimiento en área de desarrollo de software, con experiencia en varios lenguajes de programación y diferentes herramientas de software.                    
+                    </p>
+                    <br>
+                    <img src="img/andmar profile.jpg" class="about__img" alt="">
                 </div>
 
                 <div>
                     <div class="about__information">
-                        <h3 class="about__information-title">Information</h3>
+                        <h3 class="about__information-title">Información</h3>
     
                         <div class="about__information-data">
                             <i class="bx bx-user about__information-icon"></i>
-                            <span>Harris Willia</span>
+                            <span id="about__description_final">Antonio de Jesús&nbsp;<b>Andrade Mares</b></span>
+                        </div>
+                        <div class="about__information-data">
+                            <i class="bx bx-mobile about__information-icon"></i>
+                            <span id="about__description_final">473-124-79-08</span>
                         </div>
                         <div class="about__information-data">
                             <i class="bx bx-phone about__information-icon"></i>
-                            <span>999-878-565</span>
+                            <span id="about__description_final">464-649-61-24</span>
                         </div>
                         <div class="about__information-data">
                             <i class="bx bx-envelope about__information-icon"></i>
-                            <span>andmar@gmail.com</span>
+                            <span id="about__description_final">antoniomaresmares001@gmail.com</span>
+                        </div>
+                        <div class="about__information-data">
+                            <i class="bx bx-mail-send about__information-icon"></i>
+                            <span id="about__description_final">adj.andrademares@ugto.mx</span>
                         </div>
                     </div>
                     
                     <div class="about__information">
-                        <h3 class="about__information-title">Experience and Support</h3>
+                        <h3 class="about__information-title">Experiencia</h3>
     
                         <div class="about__information-data">
                             <i class="bx bx-medal about__information-icon"></i>
                             <div>
-                                <span class="about__information-subtitle">5 years job</span>
-                                <span class="about__information-subtitle-small">Experience</span>
+                                <span class="about__information-subtitle"id="about__description_d">1 año</span>
+                                <span class="about__information-subtitle-small"id="about__description_final">Experiencia</span>
                             </div>
                         </div>
     
                         <div class="about__information-data">
                             <i class="bx bx-briefcase about__information-icon"></i>
                             <div>
-                                <span class="about__information-subtitle">+50 proyects</span>
-                                <span class="about__information-subtitle-small">Completed</span>
+                                <span class="about__information-subtitle"id="about__description_d">Integración de contenidos digitales</span>
+                                <span class="about__information-subtitle-small"id="about__description_final">Sistema Universitario de Multimodalidad Educativa</span>
                             </div>
                         </div>
     
                         <div class="about__information-data">
                             <i class="bx bx-support about__information-icon"></i>
                             <div>
-                                <span class="about__information-subtitle">Support</span>
-                                <span class="about__information-subtitle-small">online 24/7</span>
+                                <span class="about__information-subtitle" id="about__description_d">Disponibilidad</span>
+                                <span class="about__information-subtitle-small"id="about__description_final">24/7</span>
                             </div>
                         </div>
                     </div>
@@ -127,57 +142,100 @@
 
         <!-- SKILLS -->
         <section class="skills section" id="skills">
-            <span class="section-subtitle"> why choose me</span>
-            <h2 class="section-title">My Experience</h2>
+            <span class="section-subtitle"><i class='bx bx-laptop' id="x"></i></span>
+
+            <h2 class="section-title">Habilidades</h2>
 
             <div class="skills__container bd-grid">
                 <div class="skills__content">
-                    <h3 class="skills__subtitle">FrontEnd</h3>
+                    <h3 class="skills__subtitle">Herramientas</h3>
 
                     <div class="skills__data">
-                        <span class="skills__name">html / css</span>
+                        <span class="skills__name"><i class='bx bxl-microsoft' id="x2"></i>Microsoft Office</span>
                         <span class="skills__number">80%</span>
-                        <span class="skills__bar skills__html"></span>
+                        <span class="skills__bar skills__office"></span>
                     </div>
                     <div class="skills__data">
-                        <span class="skills__name">JavaScript</span>
-                        <span class="skills__number">30%</span>
-                        <span class="skills__bar skills__js"></span>
+                        <span class="skills__name"><i class='bx bxs-devices' id="x2"></i>Articulate Rise 360 </span>
+                        <span class="skills__number">80%</span>
+                        <span class="skills__bar skills__rise"></span>
                     </div>
                     <div class="skills__data">
-                        <span class="skills__name">React</span>
-                        <span class="skills__number">30%</span>
-                        <span class="skills__bar skills__react"></span>
+                        <span class="skills__name"><i class='bx bxs-registered' id="x2"></i>R Studio</span>
+                        <span class="skills__number">50%</span>
+                        <span class="skills__bar skills__r"></span>
                     </div>
                     <div class="skills__data">
-                        <span class="skills__name">Angular</span>
-                        <span class="skills__number">30%</span>
-                        <span class="skills__bar skills__html"></span>
+                        <span class="skills__name"><i class='bx bxl-angular' id="x2"></i>Angular</span>
+                        <span class="skills__number">40%</span>
+                        <span class="skills__bar skills__angular"></span>
                     </div>
+                    <div class="skills__data">
+                        <span class="skills__name"><i class='bx bxs-data' id="x2"></i>SQL_server, mysql</span>
+                        <span class="skills__number">50%</span>
+                        <span class="skills__bar skills__sql"></span>
+                    </div>
+                    <div class="skills__data">
+                        <span class="skills__name"><i class='bx bx-terminal' id="x2"></i>Manejo de Consola "cmd"</span>
+                        <span class="skills__number">60%</span>
+                        <span class="skills__bar skills__cmd"></span>
+                    </div>
+                    <div class="skills__data">
+                        <span class="skills__name"><i class='bx bxs-bar-chart-alt-2' id="x2"></i> Power BI</span>
+                        <span class="skills__number">30%</span>
+                        <span class="skills__bar skills__PowerBI"></span>
+                    </div>
+                    <div class="skills__data">
+                        <span class="skills__name"><i class='bx bxl-git' id="x2"></i>GIT</span>
+                        <span class="skills__number">50%</span>
+                        <span class="skills__bar skills__GIT"></span>
+                    </div>
+                    <div class="skills__data">
+                        <span class="skills__name"><i class='bx bxl-github' id="x2"></i>GitHub</span>
+                        <span class="skills__number">50%</span>
+                        <span class="skills__bar skills__GitHub"></span>
+                    </div>
+
                 </div>
 
                 <div class="skills__content">
-                    <h3 class="skills__subtitle">BackEnd</h3>
+                    <h3 class="skills__subtitle">Lenguajes</h3>
+                    <div class="skills__data">
+                        <span class="skills__name"><i class='bx bxl-javascript' id="x2"></i>JavaScript</span>
+                        <span class="skills__number">60%</span>
+                        <span class="skills__bar skills__js"></span>
+                    </div>
+                    <div class="skills__data">
+                        <span class="skills__name"><i class='bx bx-code-curly' id="x2"></i>TypeScript</span>
+                        <span class="skills__number">40%</span>
+                        <span class="skills__bar skills__ts"></span>
+                    </div>
 
                     <div class="skills__data">
-                        <span class="skills__name">PHP</span>
-                        <span class="skills__number">80%</span>
-                        <span class="skills__bar skills__php"></span>
-                    </div>
-                    <div class="skills__data">
-                        <span class="skills__name">node js</span>
-                        <span class="skills__number">20%</span>
-                        <span class="skills__bar skills__node"></span>
-                    </div>
-                    <div class="skills__data">
-                        <span class="skills__name">Firebase</span>
-                        <span class="skills__number">33%</span>
-                        <span class="skills__bar skills__firebase"></span>
-                    </div>
-                    <div class="skills__data">
-                        <span class="skills__name">Python</span>
-                        <span class="skills__number">60%</span>
+                        <span class="skills__name"><i class='bx bxl-python' id="x2"></i>Python</span>
+                        <span class="skills__number">50%</span>
                         <span class="skills__bar skills__python"></span>
+                    </div>
+
+                    <div class="skills__data">
+                        <span class="skills__name"><i class='bx bxl-css3' id="x2"></i>css</span>
+                        <span class="skills__number">40%</span>
+                        <span class="skills__bar skills__css"></span>
+                    </div>
+                    <div class="skills__data">
+                        <span class="skills__name"><i class='bx bx-data' id="x2"></i>SQL</span>
+                        <span class="skills__number">50%</span>
+                        <span class="skills__bar skills__sqlL"></span>
+                    </div>
+                    <!-- <div class="skills__data">
+                        <span class="skills__name"><i class='bx bx-coffee' id="x2"></i>Java</span>
+                        <span class="skills__number">40%</span>
+                        <span class="skills__bar skills__java"></span>
+                    </div> -->
+                    <div class="skills__data">
+                        <span class="skills__name"><i class='bx bx-code-block' id="x2"></i>.net core</span>
+                        <span class="skills__number">30%</span>
+                        <span class="skills__bar skills__net"></span>
                     </div>
                 </div>
                 
@@ -186,205 +244,180 @@
         <!-- EDUCATION -->
 
         <section class="education section" id="education">
-            <span class="section-subtitle"> Qualification</span>
-            <h2 class="section-title">My Education</h2>
+            <span class="section-subtitle"><i class="bx bxs-school" id="x"></i></span>
+            <h2 class="section-title">Formación Académica</h2>
 
             <div class="education__container bd-grid">
                 <div class="education__content">
                     <div>
-                        <h3 class="education__year">2010 - 2013</h3>
-                        <span class="education__university">University of Studies</span>
+                        <h3 class="education__year">Junio 2013 – Agosto 2016</h3>
+                        <span class="education__university">Centro de Bachillerato Tecnológico Industrial y de Servicios no. 65                        </span>
                     </div>
                     <div class="education__time">
                         <span class="education__rounder"></span>
                         <span class="education__line"></span>
                     </div>
                     <div>
-                        <h3 class="education__race">Diploma Development</h3>
-                        <span class="education__specialty">FrontEnd</span>
+                        <h3 class="education__race">Tecnico en Programación.</h3>
+                        <span class="education__specialty">Programación</span>
                     </div>
                 </div>
 
                 <div class="education__content">
                     <div>
-                        <h3 class="education__year">2014 - 2017</h3>
-                        <span class="education__university">University of Studies</span>
+                        <h3 class="education__year">Enero 2017 – Junio 2021</h3>
+                        <span class="education__university">Universidad de Guanajuato</span>
                     </div>
                     <div class="education__time">
                         <span class="education__rounder"></span>
                         <span class="education__line"></span>
                     </div>
                     <div>
-                        <h3 class="education__race">Diploma Development</h3>
-                        <span class="education__specialty">BackEnd</span>
+                        <h3 class="education__race">Licenciatura en Sistemas de Información Administrativa</h3>
+                        <span class="education__specialty">Económico Administrativo</span>
                     </div>
                 </div>
 
-                <div class="education__content">
-                    <div>
-                        <h3 class="education__year">2018 - 2013</h3>
-                        <span class="education__university">University of Studies</span>
-                    </div>
-                    <div class="education__time">
-                        <span class="education__rounder"></span>
-                        <span class="education__line"></span>
-                    </div>
-                    <div>
-                        <h3 class="education__race">Diploma Design</h3>
-                        <span class="education__specialty">UI / UX</span>
-                    </div>
-                </div>
             </div>
-
 
         </section>
     
         <!-- SERVICES -->
 
         <section class="services section" id="services">
-            <span class="section-subtitle">What i Offer</span>
-            <h2 class="section-title">My services</h2>
+
+            <span class="section-subtitle"><i class="bx bx-book-open" id="x"></i></span>
+            <h2 class="section-title">Mis proyectos</h2>
 
             <div class="services__container bd-grid">
+                
                 <div class="services__content">
-                    <i class="bx bx-code services__icon"></i>
-                    <h3 class="services__title">Web Design</h3>
-                    <p class="services__description">
-                        this services Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, recusandae suscipit! Beatae unde rerum earum veniam ullam, repellendus, labore vero 
-                    </p>
-                </div>
-
-                <div class="services__content">
-                    <i class="bx bx-pen services__icon"></i>
-                    <h3 class="services__title">Graphic Design</h3>
-                    <p class="services__description">
-                        this services Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, recusandae suscipit! Beatae unde rerum earum veniam ullam, repellendus, labore vero 
-                    </p>
+                    <a href="https://gifsantonio-sume-ug.netlify.app/" target="_blank">
+                        <i class="bx bx-code services__icon"></i>
+                        <h3 class="services__title">Gifs APP</h3>
+                        <p class="services__description">
+                            Aplicación en angular la cual consume la API de “GIPHY Developer”.
+                        </p>
+                    </a>
                 </div>
                 
                 <div class="services__content">
-                    <i class="bx bx-brush services__icon"></i>
-                    <h3 class="services__title">UI / UX</h3>
-                    <p class="services__description">
-                        this services Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, recusandae suscipit! Beatae unde rerum earum veniam ullam, repellendus, labore vero 
-                    </p>
-                </div>
-                
-                <div class="services__content">
-                    <i class="bx bx-server services__icon"></i>
-                    <h3 class="services__title">BackEnd Development</h3>
-                    <p class="services__description">
-                        this services Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, recusandae suscipit! Beatae unde rerum earum veniam ullam, repellendus, labore vero 
-                    </p>
-                </div>
-                
-                <div class="services__content">
-                    <i class="bx bx-code services__icon"></i>
-                    <h3 class="services__title">Web Design</h3>
-                    <p class="services__description">
-                        this services Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, recusandae suscipit! Beatae unde rerum earum veniam ullam, repellendus, labore vero 
-                    </p>
-                </div>
+                    <a href="https://github.com/andmar1/API-.Net" target="_blank">
+                        <i class="bx bx-pen services__icon"></i>
+                        <h3 class="services__title">CRUD React</h3>
+                        <p class="services__description">
+                            CRUD para microempresa de espárragos, implementando React js en lado del 
+                            FrontEnd asi como .NET y SQL Server como gestor de base de datos en el lado del servidor.
+                        </p>
+                    </a>
+                </div>    
 
                 <div class="services__content">
-                    <i class="bx bx-pencil services__icon"></i>
-                    <h3 class="services__title">Content Writing</h3>
-                    <p class="services__description">
-                        this services Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, recusandae suscipit! Beatae unde rerum earum veniam ullam, repellendus, labore vero 
-                    </p>
-                </div>
+                    <a href="https://github.com/andmar1/Login-Angular" target="_blank">
+                        <i class="bx bx-pen services__icon"></i>
+                        <h3 class="services__title">CRUD Angular</h3>
+                        <p class="services__description">
+                            CRUD que simula el login de una tarjeta de credito usando angular en lado del FrontEnd, una API creada en .NET y sql Server como gestor de base de datos.
+                        </p>
+                    </a>
+                </div>   
 
                 <div class="services__content">
-                    <i class="bx bx-mobile services__icon"></i>
-                    <h3 class="services__title">Interface Movil</h3>
-                    <p class="services__description">
-                        this services Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, recusandae suscipit! Beatae unde rerum earum veniam ullam, repellendus, labore vero 
-                    </p>
-                </div>
+                    <a href="https://github.com/andmar1/Calculadora-JS" target="_blank">
+                        <i class="bx bx-pen services__icon"></i>
+                        <h3 class="services__title">Calculadora en JavaScript</h3>
+                        <p class="services__description">
+                            Calculadora usando JavaScript puro.
+                        </p>
+                    </a>
+                </div>   
+
+                <div class="services__content">
+                    <a href="https://github.com/andmar1/IngresosEgresos-JS" target="_blank">
+                        <i class="bx bx-pen services__icon"></i>
+                        <h3 class="services__title">Aplicación de Ingreso y Egreso de Capital</h3>
+                        <p class="services__description">
+                            Aplicación de egresos y ingresos usando JavaScript puro.
+                        </p>
+                    </a>
+                </div>  
+
+                <div class="services__content">
+                    <a href="https://github.com/andmar1/Analis-database" target="_blank">
+                        <i class="bx bx-pen services__icon"></i>
+                        <h3 class="services__title">Analisis Exploratorio usando R</h3>
+                        <p class="services__description">
+                            Analisis Exploratorio de un dataset "privado" implementando R, por medio del IDE R Studio.
+                        </p>
+                    </a>
+                </div>   
 
             </div>
         </section>
 
-        <!-- PROJECT IN MIDN -->
+        <!-- SECTION PROJECT IN MIDN -->
         <section class="project section" id="project">
             <div class="project__container bd-grid">
-                <div class="project__data">
-                    <h2 class="section-title project__title"> Do you have a project in mind</h2>
-                    <p class="project__description"> si tienes un proyecto en mente Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis labore nostrum molestias nihil dignissimos minima sapiente exercitationem voluptatibus. Deleniti quam officiis nulla possimus consectetur quis aliquam asperiores tempore eum voluptatibus.    
-                    </p>
-                    <a href="#contact" class="button button__light">Contact Me</a>
+                <div class="project__data" id="project__data-Style">
+                    <!-- <h2 class="section-title project__title" id="projectAndmar"> Do you have a project in mind</h2>
+                    -->
+                    <h2 id="projectAndmar"> Aptitudes </h2>
+                    <ul class="project__list">
+                        <li>Competencias digitales</li>
+                        <li>Trabajo en equipo</li>
+                        <li>Adaptación y flexibilidad</li>
+                        <li>Iniciativa</li>
+                        <li>Facilidad de aprendizaje</li>
+                        <li>Planeación y organización</li>
+                        <li>Comunicación</li>
+                    </ul>                    
+
+                    <!-- <a href="#contact" class="button button__light">Contactame</a> -->
                 </div>
 
-                <img src="img/projectmind.png" alt="" class="project__img">
+                <img src="img/contactme.png" alt="" class="project__img">
             </div>
         </section>
 
         <!-- WORKS -->
         <section class="works section" id="works">
-            <span class="section-subtitle">My Portfolio</span>
-            <h2 class="section-title">Recent Works</h2>
+            <span class="section-subtitle"><i class="bx bx-spreadsheet" id="x"></i></span>
+
+            <h2 class="section-title">Experiencia Laboral</h2>
 
             <div class="works__container bd-grid">
                 <div class="works__img">
                     <img src="img/work1.jpg" alt="">
-                    
                     <div class="works__data">
-                        <a href="#" class="works__link"><i class="bx bx-link-alt"></i></a>
-                        <span class="works__title">Work 1</span>
-
-                    </div>
-                </div>
-
-                <div class="works__img">
-                    <img src="img/work2.jpg" alt="">
-                    
-                    <div class="works__data">
-                        <a href="#" class="works__link"><i class="bx bx-link-alt"></i></a>
-                        <span class="works__title">Work 2</span>
-                        
-                    </div>
-                </div>
-
-                <div class="works__img">
-                    <img src="img/work3.jpg" alt="">
-                    
-                    <div class="works__data">
-                        <a href="#" class="works__link"><i class="bx bx-link-alt"></i></a>
-                        <span class="works__title">Work 3</span>
-                        
+                        <span class="works__title">SUME</span>
+                        <p class="works__description">
+                            Integración de contenidos digitales por medio de sistemas de gestión de contenidos CMS.
+                        </p>
                     </div>
                 </div>
 
                 <div class="works__img">
                     <img src="img/work4.jpg" alt="">
-                    
                     <div class="works__data">
-                        <a href="#" class="works__link"><i class="bx bx-link-alt"></i></a>
-                        <span class="works__title">Work 4</span>
-                        
+                        <!-- <a href="#" class="works__link"><i class="bx bx-link-alt"></i></a> -->
+                        <span class="works__title">Equipo Fortaleza</span>
+                        <p class="works__description">
+                            Tecnico en Iluminacion y conexión de audio.
+                        </p>
                     </div>
                 </div>
 
                 <div class="works__img">
-                    <img src="img/work5.jpg" alt="">
-                    
+                    <img src="img/machine gear.png" alt="">
                     <div class="works__data">
-                        <a href="#" class="works__link"><i class="bx bx-link-alt"></i></a>
-                        <span class="works__title">Work 5</span>
-                        
+                        <!-- <a href="#" class="works__link"><i class="bx bx-link-alt"></i></a> -->
+                        <span class="works__title">Grupo (CCA)
+                            </span>
+                        <p class="works__description">
+                            Operador de Maquina de impresión Langstone
+                        </p>
                     </div>
                 </div>
-
-                <div class="works__img">
-                    <img src="img/work6.jpg" alt="">
-                    
-                    <div class="works__data">
-                        <a href="#" class="works__link"><i class="bx bx-link-alt"></i></a>
-                        <span class="works__title">Work 6</span>
-                        
-                    </div>
-                </div>
-
 
             </div>
 
@@ -392,7 +425,7 @@
 
         <!-- CONTACT  -->
 
-        <section class="contact section" id="contact">
+        <!-- <section class="contact section" id="contact">
             <span class="section-subtitle">Contact Me</span>
             <h2 class="section-title"> Get in touch</h2>
 
@@ -430,26 +463,28 @@
                 </div>
 
             </div>
-        </section>
+        </section> -->
 
 
         <!-- FOOTER -->
 
-        <footer class="footer section">
+        <footer class="footer section" id="footer">
             <div class="footer__container bd-grid">
-                <h1 class="footer__title">Harris</h1>
-                <p class="footer__description">
-                    l am Antonio Andrade and this is my personal website, consult me here.
+                <h1 class="footer__title">Contactame</h1>
+                <br class="footer__description">
+                    Este sitio fue construido por <b>Antonio Andrade </b> 
                 </p>
+                <br>
 
-                <div class="footer__social">
-                    <a href="#" class="footer__link"><i class="bx bxl-facebook"></i></a>
-                    <a href="#" class="footer__link"><i class="bx bxl-instagram"></i></a>
-                    <a href="#" class="footer__link"><i class="bx bxl-twitter"></i></a>
+                <div class="footer__social" >
+                    <a href="https://github.com/andmar1" class="footer__link" target="_blank"><i class="bx bxl-github"></i></a>
+                    <a href="https://www.linkedin.com/in/antonio-de-jes%C3%BAs-andrade-mares-b19378118" class="footer__link" target="_blank"><i class="bx bxl-linkedin"></i></a>
+                    <a href="https://www.facebook.com/antonio.andrademares" class="footer__link" target="_blank"><i class="bx bxl-facebook"></i></a>
+                    <a href="https://www.instagram.com/andrade_mares" class="footer__link" target="_blank"><i class="bx bxl-instagram"></i></a>
                 </div>
-
-                <p class="copyright">&copy; All right reserved by Antonio -2021 </p>
-            </div>
+                
+                <p class="copyright">&copy; Todos lo derechos reservados Antonio -2021 </p>
+            </div> 
         </footer>
 
     </main>
