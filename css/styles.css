@@ -328,7 +328,7 @@ img{
     margin-bottom: var(--mb-5);
 }
 .home__professionIndex{
-    font-size: 3rem;
+    font-size: 2rem;
     color: var(--first-color--dark);
     margin-bottom: var(--mb-5);
 }
@@ -426,10 +426,20 @@ img{
 }
 
 #about__description_final{
-    font-size: 20px;
+    font-size: 13px;
 }
 #about__description_d{
-    font-size: 21px;
+    font-size: 13px;
+}
+
+@media screen and (min-width: 640px){
+    #about__description_final{
+        font-size: 18px;
+    }
+    #about__description_d{
+        font-size: 18px;
+    }
+    
 }
 
 
