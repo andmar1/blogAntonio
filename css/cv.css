@@ -120,6 +120,8 @@ body{
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
     font-size: 2rem;
+    text-decoration: none;
+    
      
 }
 
