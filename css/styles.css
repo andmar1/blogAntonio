@@ -511,9 +511,9 @@ img{
 }
 
 .skills__angular{
-    width: 40%;
+    width: 60%;
     height: .5rem;
-    background-color: rgb(125, 230, 248);
+    background-color: rgb(90, 255, 68);
     border: 2px solid black;
     border-radius: 4px;
 }
@@ -544,7 +544,7 @@ img{
 .skills__GIT{
     width: 50%;
     height: .5rem;
-    background-color: rgb(125, 230, 248);
+    background-color: rgb(90, 255, 68);
     border: 2px solid black;
     border-radius: 4px;
 }
@@ -555,6 +555,21 @@ img{
     border: 2px solid black;
     border-radius: 4px;
 }
+.skills__Visual{
+    width: 80%;
+    height: .5rem;
+    background-color: rgb(125, 230, 248);
+    border: 2px solid black;
+    border-radius: 4px;
+}
+.skills__Visual2{
+    width: 80%;
+    height: .5rem;
+    background-color: rgb(125, 230, 248);
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
 
 .skills__js{
     width: 60%;
@@ -596,7 +611,7 @@ img{
     border-radius: 4px;
 }
 .skills__net{
-    width: 30%;
+    width: 60%;
     height: .5rem;
     background-color: rgb(90, 255, 68);
     border: 2px solid black;
